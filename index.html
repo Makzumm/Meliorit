@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meliorit</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@600;900&family=Nunito:wght@400;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
+    <link rel="stylesheet" href="/css/main.min.css">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" /> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <!--HEADER-->
+    <div class="header-hero-wrapper">
+        <header class="header">
+            <div class="container header__container">
+                <div class="header-logo-wrapper">
+                    <a href="/index.html" class="header-logo-wrapper__logo">
+                        M
+                    </a>
+                    <span class="header-logo-wrapper__logo-info">Официальный поставщик<br />
+                        Palo Alto и Fortinet в Казахстане
+                    </span>
+                </div>
+                <nav class="header-nav">
+                    <ul class="header-menu">
+                        <li class="header-menu__item">
+                            <a href='#' class="header-menu__link">
+                                Межсетевые экраны
+                                <svg class="header-menu__icon" width="16" height="16">
+                                    <use href="./img/sprite.svg#icon-arrow-down"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="header-menu__item">
+                            <a href='#' class="header-menu__link">
+                                Консалтинг и аудит
+                                <svg class="header-menu__icon" width="16" height="16">
+                                    <use href="./img/sprite.svg#icon-arrow-down"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="header-menu__item">
+                            <a href='#' class="header-menu__link">
+                                Блог
+                                <svg class="header-menu__icon" width="16" height="16">
+                                    <use href="./img/sprite.svg#icon-arrow-down"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="header-menu__item">
+                            <a href='#' class="header-menu__link">
+                                О компании
+                                <svg class="header-menu__icon" width="16" height="16">
+                                    <use href="./img/sprite.svg#icon-arrow-down"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <ul class="header-utils-list">
+                    <li class="header-utils-list__item">
+                        <a href="#" class="header-utils-list__link">
+                            <svg class="header-utils-list__icon" width="20" height="20">
+                                <use href="./img/sprite.svg#icon-star"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="header-utils-list__item">
+                        <a href="#" class="header-utils-list__link">
+                            <svg class="header-utils-list__icon" width="20" height="20">
+                                <use href="./img/sprite.svg#icon-shopping-cart"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <!--HERO-->
+        <section class="hero-section">
+            <h2 class="hidden-title">
+                Hero
+            </h2>
+            <div class="container hero__container">
+                <div class="hero-info-wrapper">
+                    <h1 class="hero-info-wrapper__title">
+                        Межсетевые экраны <span class="hero-info-wrapper__title-marked">нового</span> поколения
+                    </h1>
+                    <p class="hero-info-wrapper__txt">
+                        Сократите затраты на обеспечение информационной<br /> безопасности и окупите вложения уже через
+                        шесть
+                        месяцев
+                    </p>
+                    <button class="hero-info-wrapper__button" type="button">Читать статью
+                        <svg class="hero-info-wrapper__icon" width="20" height="20">
+                            <use href="./img/sprite.svg#icon-arrow-right"></use>
+                        </svg>
+                    </button>
+                </div>
+                <img class="hero-info-wrapper__tumb" src="./img/hero.png" alt="Hero-image" width="846">
+            </div>
+        </section>
+    </div>
+    <!--ADVICE-->
+    <section class="advice-section">
+        <h2 class="hidden-title">
+            Help with choice
+        </h2>
+        <div class="container advice-container">
+            <img src="./img/hero-smaller.png" alt="Computer-with-module">
+            <div class="advice-wrapper">
+                <h3 class="advice-wrapper__title">
+                    Помощь <br />в выборе модели
+                </h3>
+                <p class="advice-wrapper__txt">
+                    Сколько компьютеров в вашей локальной сети?
+                </p>
+                <form class="advice-form" name="typing-module-model">
+                    <input class="advice-form__input" type="text" id="text" name="user-text">
+                    <button type='submit' class="advice-form__button">
+                        Продолжить
+                        <svg class="advice-form__icon" width="20" height="20">
+                            <use href="./img/sprite.svg#icon-arrow-right"></use>
+                        </svg>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!--CATALOG-->
+    <section class="catalog-section">
+        <div class="container catalog__container">
+            <div class="catalog-titles-wraper">
+                <h2 class="catalog-titles-wraper__title">
+                    Популярные модели
+                </h2>
+                <a href="#" class="catalog-titles-wraper__txt">Какую модель выбрать?</a>
+            </div>
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="model-info-wrapper">
+                            <h3 class="model-info-wrapper__title">
+                                PA-220
+                                <svg class="model-info-wrapper__icon" width="20" height="20">
+                                    <use href="./img/sprite.svg#icon-arrow-right"></use>
+                                </svg>
+                            </h3>
+                            <p class="model-info-wrapper__txt">
+                                Подходит для небольших организаций, филиалов и торговых точек
+                            </p>
+                            <img class="model-info-wrapper__tumb" src="./img/model1.jpg" alt="Model first">
+                            <ul class="info-menu">
+                                <li class="info-menu__item">
+                                    <h4 class="info-menu__title">Пропускная
+                                        способность</h4>
+                                    <p class="info-menu__txt">500 Mbps</p>
+                                </li>
+                                <li class="info-menu__item">
+                                    <h4 class="info-menu__title">Максимальное
+                                        кол-во сессий</h4>
+                                    <p class="info-menu__txt">64 000</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="model-info-wrapper">
+                            <h3 class="model-info-wrapper__title">
+                                PA-800
+                                <svg class="model-info-wrapper__icon" width="20" height="20">
+                                    <use href="./img/sprite.svg#icon-arrow-right"></use>
+                                </svg>
+                            </h3>
+                            <p class="model-info-wrapper__txt">
+                                Предназначен для офисов филиалов и предприятий среднего бизнеса
+                            </p>
+                            <img class="model-info-wrapper__tumb" src="./img/model2.jpg" alt="Model first">
+                            <ul class="info-menu">
+                                <li class="info-menu__item">
+                                    <h4 class="info-menu__title">Пропускная
+                                        способность</h4>
+                                    <p class="info-menu__txt">1 900 Mbps</p>
+                                </li>
+                                <li class="info-menu__item">
+                                    <h4 class="info-menu__title">Максимальное
+                                        кол-во сессий</h4>
+                                    <p class="info-menu__txt">192 000</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="model-info-wrapper">
+                            <h3 class="model-info-wrapper__title">
+                                PA-400
+                                <svg class="model-info-wrapper__icon" width="20" height="20">
+                                    <use href="./img/sprite.svg#icon-arrow-right"></use>
+                                </svg>
+                            </h3>
+                            <p class="model-info-wrapper__txt">
+                                Для организаций, которые хотят обеспечить наилучший уровень кибербезопасности
+                            </p>
+                            <img class="model-info-wrapper__tumb" src="./img/model1.jpg" alt="Model first">
+                            <ul class="info-menu">
+                                <li class="info-menu__item">
+                                    <h4 class="info-menu__title">Пропускная
+                                        способность</h4>
+                                    <p class="info-menu__txt">8,8 Gbps</p>
+                                </li>
+                                <li class="info-menu__item">
+                                    <h4 class="info-menu__title">Максимальное
+                                        кол-во сессий</h4>
+                                    <p class="info-menu__txt">3 000 000</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="model-info-wrapper">
+                            <h3 class="model-info-wrapper__title">
+                                PA-3200
+                                <svg class="model-info-wrapper__icon" width="20" height="20">
+                                    <use href="./img/sprite.svg#icon-arrow-right"></use>
+                                </svg>
+                            </h3>
+                            <p class="model-info-wrapper__txt">
+                                Предназначен для офисов филиалов и предприятий среднего бизнеса
+                            </p>
+                            <img class="model-info-wrapper__tumb" src="./img/model4.jpg" alt="Model first">
+                            <ul class="info-menu">
+                                <li class="info-menu__item">
+                                    <h4 class="info-menu__title">Пропускная
+                                        способность</h4>
+                                    <p class="info-menu__txt">
+                                        5,2/4,7 Gbps
+                                    </p>
+                                </li>
+                                <li class="info-menu__item">
+                                    <h4 class="info-menu__title">Максимальное
+                                        кол-во сессий</h4>
+                                    <p class="info-menu__txt">400 000</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-unique-prev">
+                <svg class="model-info-wrapper__icon" width="38" height="38">
+                    <use href="./img/sprite.svg#icon-arrow-prev"></use>
+                </svg>
+            </div>
+            <div class="swiper-button-unique-next">
+                <svg class="model-info-wrapper__icon" width="38" height="38">
+                    <use href="./img/sprite.svg#icon-arrow-next"></use>
+                </svg>
+            </div>
+            <button class="catalog__button" type="button">
+                Все модели
+                <svg class="catalog__button--icon" width="20" height="20">
+                    <use href="./img/sprite.svg#icon-arrow-right"></use>
+                </svg>
+            </button>
+        </div>
+    </section>
+    <!--SUBSCRIPTIONS-->
+    <section class="subscriptions-section">
+        <div class="container subscriptions-container">
+            <div class="subscriptions-titles-wrapper">
+                <h2 class="subscriptions-titles-wrapper__title">
+                    Подписки
+                </h2>
+                <a href="#" class="subscriptions-titles-wrapper__txt">Как выбрать подписку?</a>
+            </div>
+            <div class="swiper swiper-second">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="subscription-info-wrapper">
+                            <h3 class="subscription-info-wrapper__title">
+                                <svg class="subscription-info-wrapper__icon" width="36" height="36">
+                                    <use href="./img/sprite.svg#icon-cube"></use>
+                                </svg>
+                                Autofocus
+                            </h3>
+                            <p class="subscription-info-wrapper__txt">
+                                Аналитика и профилактика,<br /> основанные на собранной<br /> информации
+                            </p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="subscription-info-wrapper">
+                            <h3 class="subscription-info-wrapper__title">
+                                <svg class="subscription-info-wrapper__icon" width="36" height="36">
+                                    <use href="./img/sprite.svg#icon-cube"></use>
+                                </svg>
+                                Global Protect
+                            </h3>
+                            <p class="subscription-info-wrapper__txt">
+                                Позволяет применять политики безопасности для пользователей, работающих удаленно
+                            </p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="subscription-info-wrapper">
+                            <h3 class="subscription-info-wrapper__title">
+                                <svg class="subscription-info-wrapper__icon" width="36" height="36">
+                                    <use href="./img/sprite.svg#icon-cube"></use>
+                                </svg>
+                                URL Filtering
+                            </h3>
+                            <p class="subscription-info-wrapper__txt">
+                                Позволяет контролировать<br /> интернет-активность
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-specific-prev">
+                <svg class="model-info-wrapper__icon" width="38" height="38">
+                    <use href="./img/sprite.svg#icon-arrow-prev"></use>
+                </svg>
+            </div>
+            <div class="swiper-button-specific-next">
+                <svg class="model-info-wrapper__icon" width="38" height="38">
+                    <use href="./img/sprite.svg#icon-arrow-next"></use>
+                </svg>
+            </div>
+            <button class="subscriptions__button" type="button">
+                Все подписки
+                <svg class="subscriptions__button--icon" width="20" height="20">
+                    <use href="./img/sprite.svg#icon-arrow-right"></use>
+                </svg>
+            </button>
+        </div>
+    </section>
+    <!--QUESTIONS-->
+    <section class="questions-section">
+        <div class="container questions--container">
+            <h2 class="questions__title">
+                Часто задаваемые вопросы
+            </h2>
+            <div class="questions-table">
+                <div class="questions-table-wrapper">
+                    <h3 class="questions-table-wrapper__title">Как работает межсетевой экран?</h3>
+                    <button type="button" class="questions-table-wrapper__button">
+                        <svg class="questions-table-wrapper__icon" width="24" height="24">
+                            <use href="./img/sprite.svg#icon-arrow-down"></use>
+                        </svg>
+                    </button>
+                    <p class="questions-table-wrapper__txt--hidden">Сеть нуждается в защите
+                        от внешних угроз. Хищение
+                        данных,
+                        несанкционированный доступ и
+                        повреждения могут сказаться на
+                        работе сети и принести серьезные убытки. Используйте специальные программы и устройства, чтобы
+                        обезопасить себя от
+                        разрушительных воздействий. В этом обзоре мы расскажем об межсетевом экране и рассмотрим его
+                        основные типы. Подробнее...</p>
+                </div>
+                <div class="questions-table-wrapper">
+                    <h3 class="questions-table-wrapper__title">Сколько стоит установка межсетевого экрана?</h3>
+                    <button type="button" class="questions-table-wrapper__button">
+                        <svg class="questions-table-wrapper__icon" width="24" height="24">
+                            <use href="./img/sprite.svg#icon-arrow-down"></use>
+                        </svg>
+                    </button>
+                    <p class="questions-table-wrapper__txt--hidden">Сеть нуждается в защите
+                        от внешних угроз. Хищение
+                        данных,
+                        несанкционированный доступ и
+                        повреждения могут сказаться на
+                        работе сети и принести серьезные убытки. Используйте специальные программы и устройства, чтобы
+                        обезопасить себя от
+                        разрушительных воздействий. В этом обзоре мы расскажем об межсетевом экране и рассмотрим его
+                        основные типы. Подробнее...</p>
+                </div>
+                <div class="questions-table-wrapper">
+                    <h3 class="questions-table-wrapper__title">Какие бывают межсетевые экраны?</h3>
+                    <button type="button" class="questions-table-wrapper__button">
+                        <svg class="questions-table-wrapper__icon" width="24" height="24">
+                            <use href="./img/sprite.svg#icon-arrow-down"></use>
+                        </svg>
+                    </button>
+                    <p class="questions-table-wrapper__txt--hidden">Сеть нуждается в защите
+                        от внешних угроз. Хищение
+                        данных,
+                        несанкционированный доступ и
+                        повреждения могут сказаться на
+                        работе сети и принести серьезные убытки. Используйте специальные программы и устройства, чтобы
+                        обезопасить себя от
+                        разрушительных воздействий. В этом обзоре мы расскажем об межсетевом экране и рассмотрим его
+                        основные типы. Подробнее...</p>
+                </div>
+                <div class="questions-table-wrapper">
+                    <h3 class="questions-table-wrapper__title">Для чего нужен межсетевой экран?</h3>
+                    <button type="button" class="questions-table-wrapper__button">
+                        <svg class="questions-table-wrapper__icon" width="24" height="24">
+                            <use href="./img/sprite.svg#icon-arrow-down"></use>
+                        </svg>
+                    </button>
+                    <p class="questions-table-wrapper__txt--hidden">Сеть нуждается в защите
+                        от внешних угроз. Хищение
+                        данных,
+                        несанкционированный доступ и
+                        повреждения могут сказаться на
+                        работе сети и принести серьезные убытки. Используйте специальные программы и устройства, чтобы
+                        обезопасить себя от
+                        разрушительных воздействий. В этом обзоре мы расскажем об межсетевом экране и рассмотрим его
+                        основные типы. Подробнее...</p>
+                </div>
+                <div class="questions-table-wrapper">
+                    <h3 class="questions-table-wrapper__title">Как выбрать межсетевой экран?</h3>
+                    <button type="button" class="questions-table-wrapper__button">
+                        <svg class="questions-table-wrapper__icon" width="24" height="24">
+                            <use href="./img/sprite.svg#icon-arrow-down"></use>
+                        </svg>
+                    </button>
+                    <p class="questions-table-wrapper__txt--hidden">Сеть нуждается в защите
+                        от внешних угроз. Хищение
+                        данных,
+                        несанкционированный доступ и
+                        повреждения могут сказаться на
+                        работе сети и принести серьезные убытки. Используйте специальные программы и устройства, чтобы
+                        обезопасить себя от
+                        разрушительных воздействий. В этом обзоре мы расскажем об межсетевом экране и рассмотрим его
+                        основные типы. Подробнее...</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--NEWS-->
+    <section class="news-section">
+        <div class="container news--container">
+            <h2 class="news__title">Новости</h2>
+            <ul class="news-list">
+                <li class="news-list__item">
+                    <p class="news-list__txt">
+                        Контейнерные <br />межсетевые<br /> экраны Palo Alto серии CN
+                    </p>
+                </li>
+                <li class="news-list__item">
+                    <p class="news-list__txt">
+                        Защита от<br /> узвимости<br /> CVE-2021-34527, публично известной как «Print<br /> Nightmare»
+                    </p>
+                </li>
+                <li class="news-list__item">
+                    <p class="news-list__txt">
+                        Новая линейка межсетевых<br /> экранов Palo Alto<br />PA-400 Series </p>
+                </li>
+                <li class="news-list__item">
+                    <p class="news-list__txt">
+                        Что такое Next Generation Firewall?
+                    </p>
+                </li>
+                <li class="news-list__item">
+                    <p class="news-list__txt">
+                        Контейнерные <br />межсетевые<br /> экраны Palo Alto серии CN
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!--FOOTER-->
+    <footer class="footer">
+        <div class="container footer--container">
+            <ul class="footer-first-list">
+                <li class="footer-first-list__item">
+                    <a href="#" class="footer-first-list__link">
+                        Alto Networks
+                    </a>
+                </li>
+                <li class="footer-first-list__item">
+                    <a href="#" class="footer-first-list__link">
+                        Подписки Palo Alto Networks
+                    </a>
+                </li>
+                <li class="footer-first-list__item">
+                    <a href="#" class="footer-first-list__link">
+                        Prisma
+                    </a>
+                </li>
+                <li class="footer-first-list__item">
+                    <a href="#" class="footer-first-list__link">
+                        Cortex
+                    </a>
+                </li>
+            </ul>
+            <ul class="footer-second-list">
+                <li class="footer-second-list__item">
+                    <a href="#" class="footer-second-list__link">
+                        Блог
+                    </a>
+                </li>
+                <li class="footer-second-list__item">
+                    <a href="#" class="footer-second-list__link">
+                        Статьи про Palo Alto Networks
+                    </a>
+                </li>
+                <li class="footer-second-list__item">
+                    <a href="#" class="footer-second-list__link">
+                        Политика Конфиденциальности
+                    </a>
+                </li>
+            </ul>
+            <ul class="footer-contacts-list">
+                <li class="footer-contacts-list__item">
+                    <svg class="footer-contacts-list__icon" width="24" height="24">
+                        <use href="./img/sprite.svg#icon-location"></use>
+                    </svg>
+                    <p class="footer-contacts-list__adress">
+                        Адрес: 115201, Россия, Москва, Котляковская улица, 6, стр. 8
+                    </p>
+                </li>
+                <li class="footer-contacts-list__item">
+                    <svg class="footer-contacts-list__icon" width="24" height="24">
+                        <use href="./img/sprite.svg#icon-phone"></use>
+                    </svg>
+                    <a class="footer-contacts-list__tel" href="tel:+88005553535">+8 (800) 555-35-35</a>
+                </li>
+                <li class=" footer-contacts-list__item">
+                    <svg class="footer-contacts-list__icon" width="24" height="24">
+                        <use href="./img/sprite.svg#icon-email"></use>
+                    </svg>
+                    <span class="footer-contacts-list__txt">E-mail: </span>
+                    <a class="footer-contacts-list__email" href="mailto:ello@meliorit.ru">hello@meliorit.kz</a>
+                </li>
+                <li class="footer-contacts-list__item">
+                    <svg class="footer-contacts-list__icon" width="24" height="24">
+                        <use href="./img/sprite.svg#icon-watch"></use>
+                    </svg>
+                    <p class="footer-contacts-list__time">
+                        Время работы: 9.00-18.00
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="/js/carousel.js"></script>
+    <script src="/js/question-table.js"></script>
+</body>
+
+</html>

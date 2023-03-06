@@ -1,0 +1,32 @@
+.news-section {
+    padding: 80px 0;
+}
+
+.news__title {
+    margin-bottom: 36px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 90%;
+    color: $main-txt-color;
+}
+
+.news-list {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.news-list__item {
+    max-width: 265px;
+    padding: 30px 30px 135px 30px;
+    background: linear-gradient(0deg, rgba(23, 37, 35, 0.92), rgba(23, 37, 35, 0.92));
+    border-radius: 6px;
+}
+
+.news-list__txt {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+}

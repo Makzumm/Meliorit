@@ -1,0 +1,92 @@
+.subscriptions-section {
+    padding: 80px 0;
+}
+
+.subscriptions-container {
+    position: relative;
+}
+
+.subscriptions-titles-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.subscriptions-titles-wrapper__title {
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 90%;
+    color: $main-txt-color;
+}
+
+.subscriptions-titles-wrapper__txt {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: $light-lime;
+}
+
+.subscription-info-wrapper {
+    max-width: 455px;
+    height: 280px;
+    padding: 30px 105px 0 30px;
+    border-radius: 5px;
+    background: linear-gradient(165.12deg, #E6F5F5 2.79%, #EDFFF7 92.17%), #FFFFFF;
+}
+
+.subscription-info-wrapper__title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+    color: $main-txt-color;
+}
+
+.subscription-info-wrapper__txt {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    color: $light-lime;
+}
+
+.swiper-button-specific-next,
+.swiper-button-specific-prev {
+    position: absolute;
+    top: 50%;
+}
+
+.swiper-button-specific-next {
+    cursor: pointer;
+    right: -70px;
+}
+
+.swiper-button-specific-prev {
+    cursor: pointer;
+    left: -70px;
+}
+
+.subscriptions__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-top: 30px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: $main-white-color;
+    background: $light-lime;
+}
+
+.subscriptions__button--icon {
+    stroke: white;
+}

@@ -1,0 +1,120 @@
+.catalog-section {
+    padding: 80px 0;
+    background-color: #EDEDED;
+}
+
+.catalog__container {
+    position: relative;
+}
+
+.catalog-titles-wraper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.catalog-titles-wraper__title {
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 90%;
+    color: $main-txt-color;
+}
+
+.catalog-titles-wraper__txt {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: $light-lime;
+}
+
+.model-info-wrapper {
+    max-width: 335px;
+    padding: 30px;
+    background-color: $main-white-color;
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+
+.model-info-wrapper__title {
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+    color: $main-txt-color;
+}
+
+.model-info-wrapper__icon {
+    stroke: black;
+}
+
+.model-info-wrapper__txt {
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    color: $main-txt-color;
+}
+
+.model-info-wrapper__tumb {
+    margin-bottom: 16px;
+}
+
+.info-menu {
+    display: flex;
+    gap: 75px;
+}
+
+.info-menu__title {
+    margin-bottom: 4px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    color: #343434;
+}
+
+.info-menu__txt {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    color: #343434;
+    white-space: nowrap;
+}
+
+.swiper-button-unique-next,
+.swiper-button-unique-prev {
+    position: absolute;
+    top: 50%;
+}
+
+.swiper-button-unique-next {
+    cursor: pointer;
+    right: -70px;
+}
+
+.swiper-button-unique-prev {
+    cursor: pointer;
+    left: -70px;
+}
+
+.catalog__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-top: 30px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: $main-white-color;
+    background: $light-lime;
+}
+
+.catalog__button--icon {
+    stroke: white;
+}
